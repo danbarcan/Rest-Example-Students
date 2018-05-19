@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: au.com.dius:pact-jvm-consumer-junit_2.12:3.5.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer-junit_2.12/3.5.5/c25875f36f5f929ef371b75a3f042ad6acf921d2/pact-jvm-consumer-junit_2.12-3.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer-junit_2.12/3.5.5/93f935898402fbca9e5e22681e2b751864653224/pact-jvm-consumer-junit_2.12-3.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

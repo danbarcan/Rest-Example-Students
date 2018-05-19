@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <style>
+
+            body {font-family: Leto, Helvetica, sans-serif;}
+            .container{
+                width:20%;
+                margin:50px;
+            }
+
+
+            input[type=text], input[type=email] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            button:hover {
+                opacity: 0.8;
+            }
+            table {
+                width:100%;
+                height:100px;
+                border:2px solid black;
+            }
+
+            #special{
+                float:left;
+            }
+
+            .color{
+                background-color:darkred;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <form>
+                <h2>Add Customer</h2>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" id="name" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" id="emailAdd" required>
+
+                <button type="button" id="addCustomer">Add</button>
+                <div id="customerAdded"></div>
+            </form>
+        </div>
+
+        <div class="container">
+            <form>
+                <label for="email"><b>Get Customer</b></label>
+                <input type="email" placeholder="Enter Email" id="emailGet" required>
+
+                <button type="button" id="getCustomer">Get Customer</button>
+                <div id="customerReceived"></div>
+            </form>
+        </div>
+
+        <div class="container">
+            <form>
+                <label for="email"><b>Delete Customer</b></label>
+                <input type="email" placeholder="Enter Email" id="emailDelete" required>
+                <button type="button" id="delete" class="color">Delete Customer</button>
+                <div id="customerDeleted"></div>
+            </form>
+        </div>
+
+        <div class ="container" id="special">
+            <label for="email"><b>Get All Customers</b></label>
+            <table id="customers">
+
+            </table>
+            <button type="button" id ="getCustomers">Get Customers</button>
+        </div>
+
+    </body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#addCustomer').on('click', function() {
+                $('#customerAdded').empty();
+                var name = $('#name').val();
+                var email = $('#emailAdd').val();
+                console.log(name + email);
+                addCustomer(name, email);
+                $('#name').val('');
+                $('#emailAdd').val('');
+            });
+
+            $('#getCustomer').on('click', function() {
+                $('#customerReceived').empty();
+                var email = $('#emailGet').val();
+                console.log(email);
+                getCustomer(email);
+                $('#emailGet').val('');
+            });
+
+            $('#delete').on('click', function() {
+                $('#customerDeleted').empty();
+                var email = $('#emailDelete').val();
+                deleteCustomer(email);
+            });
+
+            $('#getCustomers').on('click', function() {
+                $('#customers').empty();
+                getCustomers();
+            });
+
+            function addCustomer(name, email) {
+                $.ajax({
+                    type : "POST",
+                    contentType : "application/x-www-form-urlencoded; charset=UTF-8;",
+                    url : "https://guarded-falls-72436.herokuapp.com/customers/add",
+                    data : {
+                        "name" : name,
+                        "email" : email
+                    },
+                    dataType : 'json',
+                    timeout : 10000,
+                    success : function(data) {
+                        if (data) {
+                            console.log(data);
+                            $('#customerAdded').append(data.name + " email: " + data.email);
+                        } else {
+                            $('#customerAdded').append("Error while adding the customer");
+                        }
+                    },
+                    error : function(e) {
+                        $('#customerAdded').append("Error while adding the customer");
+                    }
+                });
+            };
+
+            function getCustomer(email) {
+                $.ajax({
+                    type : "POST",
+                    contentType : "application/x-www-form-urlencoded; charset=UTF-8;",
+                    url : "https://guarded-falls-72436.herokuapp.com/customers/customer",
+                    data : {
+                        "email" : email
+                    },
+                    dataType : 'json',
+                    timeout : 10000,
+                    success : function(data) {
+                        if (data) {
+                            console.log(data);
+                            $('#customerReceived').append(data.name + " email: " + data.email);
+                        } else {
+                            $('#customerReceived').append("Error while getting the customer");
+                        }
+                    },
+                    error : function(e) {
+                        $('#customerReceived').append("Error while getting the customer");
+                    }
+                });
+            };
+
+            function deleteCustomer(email) {
+                $.ajax({
+                    type : "POST",
+                    contentType : "application/x-www-form-urlencoded; charset=UTF-8;",
+                    url : "https://guarded-falls-72436.herokuapp.com/customers/delete",
+                    data : {
+                        "email" : email
+                    },
+                    dataType : 'json',
+                    timeout : 10000,
+                    success : function(data) {
+                            $('#customerDeleted').append("Deleted with success");
+                    },
+                    error : function(e) {
+                        $('#customerDeleted').append("Error while deleting the customer");
+                    }
+                });
+            };
+
+            function getCustomers() {
+                $.ajax({
+                    type : "GET",
+                    contentType : "application/x-www-form-urlencoded; charset=UTF-8;",
+                    url : "https://guarded-falls-72436.herokuapp.com/customers",
+                    dataType : 'json',
+                    timeout : 10000,
+                    success : function(data) {
+                        console.log(data);
+                        completeTableCustomers(data);
+                    },
+                    error : function(e) {
+                        console.log("ERROR: ", e);
+                    }
+                });
+            };
+
+            function completeTableCustomers(data) {
+                if (data) {
+                    if (data.length > 0) {
+                        $('#customers').append('<tr><th>Name</th><th>Email</th></tr>');
+                        for (var i = 0; i < data.length; i++) {
+                            $('#customers').append('<tr><td>' + data[i].name + '</td><td>' + data[i].email +'</td></tr>');
+                        }
+                    } else {
+                        $(' #customers').append('<tr><td>No data in db</td></tr>');
+                    }
+                }
+            }
+        });
+    </script>
+</html>
