@@ -27,7 +27,7 @@ public class StudentController {
         return new ResponseEntity<>(students, HttpStatus.OK);
     }
 
-    @PostMapping("/student")
+    @GetMapping("/student")
     public ResponseEntity<Student> getStudent(@RequestParam final int id) {
         Student student = students.stream().filter(s -> s.getId() == id).findFirst().orElse(null);
         if (student != null) {
@@ -44,7 +44,7 @@ public class StudentController {
         return new ResponseEntity<>(student, HttpStatus.OK);
     }
 
-    @PostMapping("/student/delete")
+    @GetMapping("/student/delete")
     public ResponseEntity<String> deleteStudent(@RequestParam int id) {
         Student student = students.stream().filter(s -> s.getId() == id).findFirst().orElse(null);
         if (student != null) {

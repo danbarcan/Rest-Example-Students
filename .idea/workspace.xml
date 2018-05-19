@@ -2,36 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a6baed-929b-4c82-8b3d-cdfd0c4f8a81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_0_jre.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/catalog/example/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_24_1_jre.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/addCustomer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/controllers/AnStudiuController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/controllers/StudentController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/customer/Customer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/customer/CustomerController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/customer/CustomerRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/enitities/AnStudiu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/enitities/Materie.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/enitities/Promotie.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/enitities/Semestru.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/enitities/Specializare.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/enitities/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/repositories/AnStudiuRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/repositories/MaterieRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/repositories/PromotieRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/repositories/SemestruRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/repositories/SpecializareRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/repositories/StudentRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/addCustomer.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/technical/test/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/catalog/example/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/technical/test/customer/CustomerServiceIntegrationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/catalog/example/customer/CustomerServiceIntegrationTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/technical/test/Application$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/technical/test/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/technical/test/Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/technical/test/customer/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/technical/test/customer/CustomerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/technical/test/customer/CustomerRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/addCustomer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/technical/test/CustomerControllerAPITest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/technical/test/CustomerControllerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/technical/test/ExampleProviderTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/technical/test/HelloE2ERestTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/technical/test/HelloE2ESeleniumTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/technical/test/customer/CustomerServiceIntegrationTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/spring-testing-master_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/spring-testing-master_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/spring-testing-master_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/spring-testing-master_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/application.properties" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-316">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#842#843#0" expanded="true" />
@@ -104,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/catalog/example/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#886#1072#0" expanded="true" />
@@ -117,11 +106,9 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <marker date="1526739212551" expanded="true" signature="850:1443" ph="{...}" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -390,8 +377,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3049827420661" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="669504342" />
+        <entry key="$PROJECT_DIR$" value="3049828760842" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3149873643" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="212106163" />
       </map>
     </option>
@@ -613,12 +600,12 @@
         <option value="$PROJECT_DIR$/src/main/java/technical/test/repositories/SemestruRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/technical/test/repositories/SpecializareRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/technical/test/controllers/AnStudiuController.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/technical/test/enitities/AnStudiu.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/technical/test/customer/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/technical/test/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/technical/test/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java" />
       </list>
     </option>
@@ -823,7 +810,7 @@
     </configuration>
     <configuration name="ExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="technical.test.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.catalog.example.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="spring-testing-master_main" />
       <envs />
@@ -911,10 +898,10 @@
     <configuration name="addCustomer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/spring-testing-master/spring-testing-master_main/addCustomer.html" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ExampleApplication" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.addCustomer.html" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerControllerAPITest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerServiceIntegrationTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerControllerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerControllerAPITest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerServiceIntegrationTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerControllerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.addCustomer.html" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -926,7 +913,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1526739247089" />
+    <option name="lastUpdateTimestamp" value="1526740557626" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -1007,7 +994,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28130000" />
+    <option name="totallyTimeSpent" value="28853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1141,13 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/catalog/example/customer/CustomerServiceIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/technical/test/helper/FileLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/technical/test/CustomerControllerAPITest.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/org/mockito/MockitoAnnotations.java">
@@ -1269,16 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <marker date="1526739212551" expanded="true" signature="850:1443" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/technical/test/controllers/AnStudiuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1357,18 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1409,18 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/catalog/example/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#886#1072#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-int.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1429,11 +1375,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/catalog/example/customer/CustomerServiceIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/catalog/example/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#886#1072#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/catalog/example/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
